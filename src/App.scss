@@ -240,7 +240,7 @@ header
 
 .background-header {
   background-color: #fff!important;
-  height: 80px!important;
+  height: 100px!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
@@ -339,12 +339,12 @@ header
 
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
-  padding-left: 40px;
+  padding-left: 0px;
 }
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
-  color: #fff !important;
+  color: #232156 !important;
   padding: 0px 20px;
   font-weight: 400;
 }
@@ -371,7 +371,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #2a2a2a;
+  color: #232156;
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -387,7 +387,9 @@ header
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  background-color: #232156;
+  background-color: transparent;
+  color: #f39520!important;
+  opacity: 1;
 }
 
 .header-area .main-nav .nav li.submenu {

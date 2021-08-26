@@ -15,8 +15,6 @@ function App() {
   return (
     
     <Router>
-      
-      <Header/>
 
       <Switch>
         <Route exact path='/' component={HomePage}></Route>

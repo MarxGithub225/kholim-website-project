@@ -5,66 +5,66 @@ import img9 from '../../assets/images/bigBlogThumb.jpg';
 export default class Blog extends Component {
     render() {
         return (
-            <div id="blog" class="our-blog section">
-                <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <div class="section-heading">
+            <div id="blog" className="our-blog section">
+                <div className="container">
+                <div className="row">
+                    <div className="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+                    <div className="section-heading">
                         <h2 style = {{marginBottom: 30}}><em>Nos</em> <span>Actualités</span></h2>
                     </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+                    <div className="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
                     
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <div class="left-image">
+                <div className="row">
+                    <div className="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                    <div className="left-image">
                         <a href="#"><img src={img9} alt="Workspace Desktop" /></a>
-                        <div class="info">
-                        <div class="inner-content">
+                        <div className="info">
+                        <div className="inner-content">
                             <ul>
-                            <li><i class="fa fa-calendar"></i> 26 Août 2021</li>
+                            <li><i className="fa fa-calendar"></i> 26 Août 2021</li>
                             </ul>
                             <a href="#"><h4>Titre de l'actualité</h4></a>
                             <p>Lorem ipsum dolor sit amet, consectetur and sed doer ket eismod tempor incididunt ut labore et dolore magna...</p>
-                            <div class="main-blue-button">
+                            <div className="main-blue-button">
                             <a href="#">Découvir plus</a>
                             </div>
                         </div>
                         </div>
                     </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <div class="right-list">
+                    <div className="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                    <div className="right-list">
                         <ul>
                         <li>
-                            <div class="left-content align-self-center">
-                            <span><i class="fa fa-calendar"></i> 26 Août 2021</span>
+                            <div className="left-content align-self-center">
+                            <span><i className="fa fa-calendar"></i> 26 Août 2021</span>
                             <a href="#"><h4>Titre de l'actualité</h4></a>
                             <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                             </div>
-                            <div class="right-image">
+                            <div className="right-image">
                             <a href="#"><img src={img9} alt="" /></a>
                             </div>
                         </li>
                         <li>
-                            <div class="left-content align-self-center">
-                            <span><i class="fa fa-calendar"></i> 26 Août 2021</span>
+                            <div className="left-content align-self-center">
+                            <span><i className="fa fa-calendar"></i> 26 Août 2021</span>
                             <a href="#"><h4>Titre de l'actualité</h4></a>
                             <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                             </div>
-                            <div class="right-image">
+                            <div className="right-image">
                             <a href="#"><img src={img9} alt="" /></a>
                             </div>
                         </li>
                         <li>
-                            <div class="left-content align-self-center">
-                            <span><i class="fa fa-calendar"></i> 26 Août 2021</span>
+                            <div className="left-content align-self-center">
+                            <span><i className="fa fa-calendar"></i> 26 Août 2021</span>
                             <a href="#"><h4>Titre de l'actualité</h4></a>
                             <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                             </div>
-                            <div class="right-image">
+                            <div className="right-image">
                             <a href="#"><img src={img9} alt="" /></a>
                             </div>
                         </li>
