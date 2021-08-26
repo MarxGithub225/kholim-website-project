@@ -1,0 +1,77 @@
+.ServicesPage {
+
+    padding: 25px;
+    margin-top: 105px;
+    @media only screen and (max-width: 991px) {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header-title {
+                font-size: 14px;
+                font-weight: bolder;
+                color: #e74e1b;
+            }
+
+            .vertical-line {
+                height: 2px;
+                width: 20%;
+                background-color: #e74e1b;
+            }
+        }
+
+        .round {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #e74e1b;
+
+            .round-content {
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                background-color: #314897;
+            }
+        }
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+
+        .header-title {
+            font-size: 30px;
+            font-weight: bolder;
+            color: #e74e1b;
+        }
+
+        .vertical-line {
+            height: 2px;
+            width: 50%;
+            background-color: #e74e1b;
+        }
+    }
+
+    .round {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #e74e1b;
+
+        .round-content {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: #314897;
+        }
+    }
+}
