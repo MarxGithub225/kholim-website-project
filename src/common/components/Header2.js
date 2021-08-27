@@ -17,11 +17,11 @@ export default class Header2 extends Component {
                         
                         <ul className="nav">
                         <li className="scroll-to-section"><Link to="/" >Accueil</Link></li>
-                        <li className="scroll-to-section"><Link to = '/formations'>Pôle formations</Link> </li>
-                        <li className="scroll-to-section"><Link to = '/techniques'>Pôle technique</Link></li>
+                        <li className="scroll-to-section"><Link to = 'formations'>Pôle formations</Link> </li>
+                        <li className="scroll-to-section"><Link to = 'techniques'>Pôle technique</Link></li>
                         <li className="scroll-to-section"><div className="main-red-button"><a href="#contact" >Contactez Nous</a></div></li> 
                         </ul>        
-                        <a class='menu-trigger'>
+                        <a className='menu-trigger'>
                             <span>Menu</span>
                         </a>
                     </nav>

@@ -27,7 +27,7 @@ export default class Header extends Component {
                         <li className="scroll-to-section"><a href="#blog"  className={this.state.active === 3 ? "active": ''} onClick = {() => {this.setState({active: 3})}}>Nos actualités</a></li> 
                         <li className="scroll-to-section"><div className="main-red-button"><a href="#contact"  className={this.state.active === 4 ? "active": ''} onClick = {() => {this.setState({active: 4})}}>Contactez Nous</a></div></li> 
                         </ul>        
-                        <a class='menu-trigger'>
+                        <a className='menu-trigger'>
                             <span>Menu</span>
                         </a>
                     </nav>

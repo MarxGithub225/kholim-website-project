@@ -22,12 +22,12 @@ export default class Contact extends Component {
                         <div className="row">
                         <div className="col-lg-6">
                             <fieldset>
-                            <input type="name" name="name" id="name" placeholder="Nom" autocomplete="on" required />
+                            <input type="name" name="name" id="name" placeholder="Nom" autoComplete="on" required />
                             </fieldset>
                         </div>
                         <div className="col-lg-6">
                             <fieldset>
-                            <input type="surname" name="surname" id="surname" placeholder="Prénom(s)" autocomplete="on" required />
+                            <input type="surname" name="surname" id="surname" placeholder="Prénom(s)" autoComplete="on" required />
                             </fieldset>
                         </div>
                         <div className="col-lg-12">

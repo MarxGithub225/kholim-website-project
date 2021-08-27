@@ -59,7 +59,7 @@ export default class About extends Component {
                                 <img src={img5} alt="" />
                             </div>
                             <div className="right-text">
-                                <h4>Servies techniques</h4>
+                                <h4>Services techniques</h4>
                                 <p>Installation, maintenance des installations frigorifiques.</p>
                             </div>
                             </div>
