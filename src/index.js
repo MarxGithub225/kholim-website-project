@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import $ from 'jquery';
 ReactDOM.render(
   <Provider store={Store}>
     <React.StrictMode>

@@ -6,10 +6,9 @@
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     var box = $('.header-text').height();
-    var box2 = $('.bigTitle').height();
     var header = $('header').height();
 
-    if ((scroll >= box - header) || (scroll >= box2 - header)) {
+    if (scroll >= box - header) {
       $("header").addClass("background-header");
     } else {
       $("header").removeClass("background-header");

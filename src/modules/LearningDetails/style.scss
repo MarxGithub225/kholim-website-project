@@ -1,0 +1,150 @@
+.LearningDetails {
+    margin-top: 100px;
+    .topSide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 15px;
+        background-color: #232156;
+
+        .title {
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            padding-top: 25px;
+            text-align: center;
+            line-height: 1;
+            color: #fff;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header-title {
+                font-size: 14px;
+                font-weight: bolder;
+                color: #232156;
+                text-transform: uppercase;
+            }
+
+            .vertical-line {
+                height: 2px;
+                width: 20%;
+                background-color: #232156;
+            }
+        }
+
+        .round {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #232156;
+
+            .round-content {
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                background-color: #f39520;
+            }
+        }
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        margin-top: 50px;
+        .header-title {
+            font-size: 30px;
+            font-weight: bolder;
+            color: #f39520;
+            text-transform: uppercase;
+        }
+
+        .vertical-line {
+            height: 2px;
+            width: 30%;
+            background-color: #f39520;
+        }
+
+    
+    }
+
+    .round {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #f39520;
+
+        .round-content {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: #232156;
+        }
+    }
+
+    .bottomSide{
+        padding: 15px;
+
+        .courses {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .courseItem {
+                width: calc(100%/3);
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-top: 20px;
+                .fa {
+                    font-size: 30px;
+                    color: #3055a1;
+                    margin-right: 10px;
+                }
+                .label {
+                    font-size: 13px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: normal;
+                    color: #000;
+                    text-transform: none;
+                    letter-spacing: 1px;
+                    &:hover {
+                        color: #f39520;
+                        cursor: pointer;
+                    }
+
+                    p {
+                        a{
+                            font-size: 12px;
+                            font-weight: normal;
+                            color: #f39520;
+                        }
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        i {
+                            font-size: 12px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

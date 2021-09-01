@@ -20,7 +20,7 @@ export default class Blog extends Component {
                 <div className="row">
                     <div className="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
                     <div className="left-image">
-                        <a href="#"><img src={img9} alt="Workspace Desktop" /></a>
+                        <a href="#"><img src={img9} alt="Workspace Desktop"  /></a>
                         <div className="info">
                         <div className="inner-content">
                             <ul>

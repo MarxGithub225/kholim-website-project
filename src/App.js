@@ -1,14 +1,15 @@
 import './App.scss';
 import Footer from './common/components/Footer';
-import Header from './common/components/Header';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 import HomePage from './modules/Home';
-import LearningPage from './modules/Learning';
-import ServicesPage from './modules/Services';
+import Learning from './modules/Learning';
+import Assitance from './modules/Assitance';
+import Technique from './modules/Technique';
+import LearningDetails from './modules/LearningDetails';
 
 function App() {
 
@@ -18,10 +19,11 @@ function App() {
 
       <Switch>
         <Route exact path='/' component={HomePage}></Route>
-        <Route path='/formations' component={LearningPage}></Route>
-        <Route path='/techniques' component={ServicesPage}></Route>
+        <Route exact path='/formations' component={Learning}></Route>
+        <Route exact path='/formations/:title' component={LearningDetails}></Route>
+        <Route exact path='/audit&assistance' component={Assitance}></Route>
+        <Route exact path='/techniques' component={Technique}></Route>
       </Switch>
-
       <Footer/>
     </Router>
   );

@@ -8,7 +8,7 @@ export default class Service extends Component {
                 <div className="row">
                     <div className="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div className="left-image">
-                        <img src={img6} alt="" />
+                        <img src={img6} alt="" style = {{borderRadius: 15}}/>
                     </div>
                     </div>
                     <div className="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">

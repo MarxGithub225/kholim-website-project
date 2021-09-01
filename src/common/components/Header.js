@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../../assets/images/kholimLogo.png'
+import Logo from '../../assets/img/kholimLogo.png'
 export default class Header extends Component {
     constructor(props) {
         super (props);
@@ -21,9 +21,10 @@ export default class Header extends Component {
                         </a>
                         
                         <ul className="nav">
-                        <li className="scroll-to-section"><a href="#top" className={this.state.active === 0 ? "active": ''} onClick = {() => {this.setState({active: 0})}}>Accueil</a></li>
-                        <li className="scroll-to-section"><Link to = 'formations'  className={this.state.active === 1 ? "active": ''} onClick = {() => {this.setState({active: 1})}}>Pôle formations</Link> </li>
-                        <li className="scroll-to-section"><Link to = 'techniques'  className={this.state.active === 2 ? "active": ''} onClick = {() => {this.setState({active: 2})}}>Pôle technique</Link></li>
+                        <li className="scroll-to-section"><a href="/" className={this.state.active === 0 ? "active": ''} onClick = {() => {this.setState({active: 0})}}>Accueil</a></li>
+                        <li className="scroll-to-section"><a href = 'formations'  className={this.state.active === 1 ? "active": ''} onClick = {() => {this.setState({active: 1})}}>Formations</a> </li>
+                        <li className="scroll-to-section"><a href = 'audit&assistance'  className={this.state.active === 1 ? "active": ''} onClick = {() => {this.setState({active: 1})}}>Audit &amp; Assistance</a> </li>
+                        <li className="scroll-to-section"><a href = 'techniques'  className={this.state.active === 2 ? "active": ''} onClick = {() => {this.setState({active: 2})}}>Technique</a></li>
                         <li className="scroll-to-section"><a href="#blog"  className={this.state.active === 3 ? "active": ''} onClick = {() => {this.setState({active: 3})}}>Nos actualités</a></li> 
                         <li className="scroll-to-section"><div className="main-red-button"><a href="#contact"  className={this.state.active === 4 ? "active": ''} onClick = {() => {this.setState({active: 4})}}>Contactez Nous</a></div></li> 
                         </ul>        
